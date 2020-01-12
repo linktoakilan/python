@@ -1,0 +1,10 @@
+#!/usr/bin/env python3.7
+string1=input("Enter the String :")
+print("printing the string :"+string1)
+print("printing the string :"+string1.upper())
+print("printing the string :"+string1.lower())
+print("First Character: "+string1[0])
+print("Last Character: "+string1[-1])
+print("Middle Character: "+string1[int(len(string1)/2)])
+print("Even Character: "+string1[0::2])
+print("Odd Character: "+string1[1::	2])
